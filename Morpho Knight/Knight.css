@@ -1,0 +1,74 @@
+body{
+    background-color: orangered;
+    
+}
+#titulo{
+    text-align: center;
+}
+
+.titulo{
+    background-color: gold;
+    border:10px solid black ;
+    padding: 20px;
+}
+
+.splash{
+    display: flex;
+    justify-content: center;
+}
+
+#splash{
+    border: 10px solid red;
+}
+
+hr{
+    border: 10px solid red;
+}
+
+#historico{
+    background-color: gold;
+    border: 5px solid black;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: left;
+    background-color: yellow;
+    border: 5px solid black;
+}
+
+.ksa{
+    color: darkturquoise;
+}
+
+.ktfl{
+    color: green;
+}
+
+.Forgo{
+    color: aqua;
+}
+
+
+
+figure{
+    border: 10px red solid;
+    background-color: white;
+    width: auto;
+    height: auto;
+    float: right;
+    
+}
+
+figcaption{
+    text-align: center;
+    background-color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.icone{
+    font-style: normal;
+}
+
