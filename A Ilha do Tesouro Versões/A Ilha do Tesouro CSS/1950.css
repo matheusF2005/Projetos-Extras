@@ -1,0 +1,243 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.imagem-principal{
+    align-self: center;
+    width: auto;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(beige, red);
+    border-radius: 30px
+}
+
+button{
+    border-radius: 20px;
+    height: 40px;
+}
+
+/*Primeiro Link*/
+.pagina-inicial{
+    background-color: skyblue;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.pagina-inicial:hover{
+    background-color: green;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.Livro-Original{
+    border-radius: 10px;
+    color: green;
+    font-size: larger;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+    
+}
+
+.Livro-Original:hover{
+    border-radius: 10px;
+    color: skyblue;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+/* Fim do Primeiro Link*/
+
+/*Segundo Link*/
+.pagina-dois{
+    background-color: orange;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.pagina-dois:hover{
+    background-color: silver;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.Segunda-Adaptacao{
+   
+    color: gold;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+    
+}
+
+.Segunda-Adaptacao:hover{
+   
+    color: orange;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+    
+}
+/* Fim do Segundo Link*/
+
+/*Terceiro Link*/
+.pagina-tres{
+    background-color: beige;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.pagina-tres{
+    background-color: beige;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.pagina-tres:hover{
+    background-color: greenyellow;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.Terceira-Adaptacao{
+    
+    color: red;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+    
+}
+
+.Terceira-Adaptacao:hover{
+    color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+    
+}
+/* Fim do Terceiro Link*/
+
+/*Quarto Link*/
+.pagina-quatro{
+    background-color: darkblue;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.pagina-quatro:hover{
+    background-color: gold;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+.Quarta-Adaptacao{
+    
+    color: gold;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+    
+}
+
+.Quarta-Adaptacao:hover{
+    color: darkblue;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 0.5s; 
+}
+
+/* Fim do Quarto Link*/
+main{
+    text-align: center;
+    color: red;
+    background-color: beige;
+}
+
+section{
+    text-align: center;
+    color: red;
+    background-color: beige;
+}
+
+/*Icones de Caveira*/
+#caveira{
+    background-image: linear-gradient(red, beige);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  
+}
+
+#caveira2{
+    background-image: linear-gradient(red, beige);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+}
+/*Icones de Caveira*/
+
+ul{
+    list-style-position: inside;
+}
+
+li::marker{
+    color: rgb(233, 233, 54);
+}
+
+h1::after, h1::before, h2::after, h2::before{
+    content:'';
+    background-color: rgb(233, 233, 54);
+    display: block;
+    width: 450px;
+    height: 5px;
+    margin: auto;
+}
+
+article{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+    color: red;
+}
+
+#figuras{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.figuras{
+    border: dashed red 5px;
+    width: 250px;
+}

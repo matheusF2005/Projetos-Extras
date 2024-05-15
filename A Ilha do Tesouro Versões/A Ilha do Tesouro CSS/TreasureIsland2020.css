@@ -1,0 +1,300 @@
+body{
+    background-color: black;
+}
+
+/*Cabeçalho de Alerta*/
+header{
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    border-radius: 10px 20px;
+}
+
+i{
+    font-size: 30px;
+}
+
+#alerta{
+    font-family: Jaro;
+    
+}
+
+/*Cabeçalho de Alerta*/
+
+/*Logo do Jogo*/
+#logo-jogo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-jogo{
+    border: 15px groove white;
+    border-radius: 50px;
+}
+/*Logo do Jogo*/
+
+/*Informações do Local*/
+main{
+    background-color: whitesmoke;
+    border-radius: 10px 20px;
+    text-align: center;
+}
+
+.informações{
+    font-size: 25px;
+    font-family: Jaro;
+    font-style: italic;
+}
+/*Informações do Local*/
+
+/*Toons*/
+
+#toons{
+    text-align: center;
+    background-image: linear-gradient(silver, grey);
+    padding: 10px;
+    border-radius: 10px 20px;
+}
+
+.toons{
+    font-family: Jaro;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    color: white;
+    font-size: 40px;
+}
+
+.Mickey-Invertido{
+    background-color: white;
+    width: 700px;
+    height: 450px;
+    border: 15px groove aqua;
+    border-radius: 50px;
+}
+
+.Foto-Negativo{
+    width: 230px;
+    height: fit-content;
+    float: left;
+    border-radius: 50px;
+}
+
+.Invertido{
+    background-image: linear-gradient(rgb(1, 255, 255), rgb(62, 132, 62));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.tabela1{
+    background-image: linear-gradient(rgb(1, 255, 255), rgb(62, 132, 62));
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.caption1{
+    background-color: cyan;
+    border: groove 3px silver;
+}
+
+.separação1{
+    padding: 10px;
+    background-color: white;
+    border: 5px solid silver;
+}
+
+.separação2{
+    padding: 10px;
+    background-color: white;
+    border: 5px solid silver;
+}
+
+.Oswald{
+    background-color: white;
+    width: 700px;
+    height: 450px;
+    border: 15px groove rgb(32, 23, 213);
+    border-radius: 50px;
+    float: right;
+}
+
+.Oswald-Escuro{
+    width: 210px;
+    float: right;
+}
+
+.Escuro{
+    background-image: linear-gradient(rgb(32, 23, 213), rgb(0, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.tabela2{
+    background-image: linear-gradient(rgb(32, 23, 213), rgb(0, 0, 0));
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.caption2{
+    background-color: rgb(32, 23, 213);
+    border: groove 3px silver;
+    color: white;
+}
+
+.Acephalous{
+    background-color: white;
+    width: 700px;
+    height: 450px;
+    border: 15px groove rgb(230, 140, 15);
+    border-radius: 50px;
+    float: left;
+}
+
+.Pateta-Sem-Cabeca{
+    width: 210px;
+    height: 450px;
+    float: left;
+}
+
+.Cabeca{
+    background-image: linear-gradient(rgb(230, 140, 15), rgb(0, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.tabela3{
+    background-image: linear-gradient(rgb(230, 140, 15), rgb(0, 0, 0));
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.caption3{
+    background-color: rgb(230, 140, 15);
+    border: groove 3px silver;
+    color: white;
+}
+
+.Impura{
+    background-color: white;
+    width: 700px;
+    height: 450px;
+    border: 15px groove rgb(239, 5, 5);
+    border-radius: 50px;
+    float: right;
+}
+
+.Minnie{
+    width: 210px;
+    height: 450px;
+    float: right;
+    align-items: center;
+}
+
+.Minnie-Bizarra{
+    background-image: linear-gradient(rgb(239, 5, 5), rgba(255, 237, 158, 0.84));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.tabela4{
+    background-image: linear-gradient(rgb(239, 5, 5), rgb(0, 0, 0), rgba(255, 237, 158, 0.84));
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.caption4{
+    background-color: rgb(239, 5, 5);
+    border: groove 3px silver;
+    color: rgb(0, 0, 0);
+}
+
+.Desencarnado{
+    background-color: white;
+    width: 700px;
+    height: 410px;
+    border: 15px groove rgb(44, 52, 206);
+    border-radius: 50px;
+    float: left;
+}
+
+.Donald{
+    width: 210px;
+    height: 370px;
+    float: left;
+}
+
+.Sem-Corpo{
+    background-image: linear-gradient(rgb(15, 63, 210), rgba(194, 193, 191, 0.84));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.tabela5{
+    background-image: linear-gradient(rgb(15, 63, 210), rgba(194, 193, 191, 0.84));
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.caption5{
+    background-color: rgb(41, 51, 227);
+    border: groove 3px silver;
+    color: rgb(0, 0, 0);
+}
+
+.Rosto{
+    background-color: white;
+    width: 700px;
+    height: 410px;
+    border: 15px groove rgb(146, 17, 17);
+    border-radius: 50px;
+    float: right;
+}
+
+.Sem-Perna{
+    width: 220px;
+    height: 450px;
+    float: right;
+    align-items: center;
+}
+
+.The-Face{
+    background-image: linear-gradient(rgb(239, 5, 5), rgba(255, 237, 158, 0.84));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.tabela6{
+    background-image: linear-gradient(rgb(239, 5, 5), rgb(255, 255, 255));
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.caption6{
+    background-color: rgb(239, 5, 5);
+    border: groove 3px silver;
+    color: rgb(0, 0, 0);
+}
+
+#ela1{
+    display: flex;
+    justify-content: end;
+}
+
+.ela1{
+    
+}
+/*Toons*/
