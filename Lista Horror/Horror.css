@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(110, 104, 104);
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.navbar-menu{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-item{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-item:hover{
+    color: rgb(0, 0, 0);
+}
+
+#Logo{
+    width: 250px;
+    height: 150px;
+}
+
+#Slasher{
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    border: solid 10px rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.genero-slasher{
+    display: flex;
+    justify-content: space-between;
+    border: solid 10px rgb(255, 0, 0);
+}
+
+.card{
+    width: 280px;
+    height: 450px;
+}
+
+hr{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+#Analog-Horror{
+    font-size: 100px;
+    color: rgb(128, 128, 128);
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    border: dashed 10px rgb(128, 128, 128);
+}
+
+.genero-analog-horror{
+    display: flex;
+    justify-content: space-between;
+    border: dashed 10px rgb(128, 128, 128);
+}
+
+@media (max-width: 450px){
+    .genero-slasher{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .genero-analog-horror{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}   
